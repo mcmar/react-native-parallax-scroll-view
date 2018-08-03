@@ -119,6 +119,10 @@ The `ParallaxScrollView` component adds a few additional properties, as describe
 | `contentContainerStyle` | `object` | No | These styles will be applied to the scroll view content container which wraps all of the child views. (same as for [ScrollView](https://facebook.github.io/react-native/docs/scrollview.html#contentcontainerstyle)) |
 | `outputScaleValue` | `number` | No | The value for the scale interpolation output value, default `5` |
 | `scrollEvent` | `func` | No | Callback to recieve the animated scroll event values |
+| `parallaxHeaderContainerStyle` | `object` | No | These styles will be applied to the parallax header view content container  |
+| `parallaxHeaderStyle` | `object` | No | These styles will be applied to the parallax header view content  |
+| `backgroundImageStyle` | `object` | No | These styles will be applied to the background image header view content  |
+| `stickyHeaderStyle` | `object` | No | These styles will be applied to the sticky headerStyle view content  |
 
 
 ## Latest changes
